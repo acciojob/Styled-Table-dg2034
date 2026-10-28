@@ -1,1 +1,37 @@
 /* your code */
+*{
+	font-family: sans-serif;
+	box-sizing: border-box
+}
+
+th {
+    background-color: #245B8C;
+    color: white;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 9px;
+    font-weight: bold;
+    padding: 11px 10px;
+}
+
+td{
+	padding: 12px 10px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+table{
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	border-radius: 12px;
+	overflow: hidden;
+	color: #444;
+	font-size: 12px;
+}
